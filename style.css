@@ -169,3 +169,81 @@ body{
   transform: scale(1.2);
 }
 /* Contact section end */
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #333446;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 15px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  /* Hero bölümü */
+  .hero-content {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-content .img img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    height: auto;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  /* About bölümü */
+  .about-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  /* Contact bölümü */
+  .contact-container {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .contact-container h2 {
+    font-size: 2rem;
+  }
+
+  .social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+}
+img{
+  max-width:100%;
+  height: auto;
+}
