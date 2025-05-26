@@ -6,19 +6,22 @@
 }
 body{
   font-family: sans-serif;
+  margin-top:60px;
 }
 /* Navbar start */
 .navbar{
   background-color: #333446;
   color: #fff;
-  position: sticky;
+  position: fixed;
   z-index: 1000;  
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
   border-bottom: 2px solid black;
-
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .logo{
   font-weight: bold;
