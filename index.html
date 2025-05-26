@@ -8,19 +8,20 @@
   <title>Emin Nur</title>
 </head>
 <body>
+<nav class="navbar">
+  <div class="logo"><h1>Emin</h1></div>
 
-  <nav class="navbar">
-
-    <div class="logo"><h1>Emin</h1></div>
-      <div class="hamburger" id="hamburger">
+  <div class="hamburger" id="hamburger">
     &#9776;
   </div>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>  
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
    
   </nav>
     <section class="hero" id="home">
@@ -69,7 +70,7 @@
       </div>
       </div>
     </section>
-     <script>
+   <script>
   const hamburger = document.getElementById("hamburger");
   const navLinks = document.getElementById("nav-links");
 
@@ -77,5 +78,6 @@
     navLinks.classList.toggle("active");
   });
 </script>
+
 </body>
 </html>
