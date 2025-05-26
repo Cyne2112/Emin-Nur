@@ -169,7 +169,12 @@ body{
   transform: scale(1.2);
 }
 /* Contact section end */
-
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
