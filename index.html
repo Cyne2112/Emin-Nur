@@ -12,7 +12,9 @@
   <nav class="navbar">
 
     <div class="logo"><h1>Emin</h1></div>
-    
+      <div class="hamburger" id="hamburger">
+    &#9776;
+  </div>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -67,5 +69,13 @@
       </div>
       </div>
     </section>
+     <script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
 </body>
 </html>
