@@ -6,7 +6,7 @@
 }
 body{
   font-family: sans-serif;
-  margin-top:60px;
+  margin-top: 60px;
 }
 /* Navbar start */
 .navbar{
@@ -21,6 +21,7 @@ body{
   top: 0;
   width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 .logo{
   font-weight: bold;
@@ -175,6 +176,7 @@ body{
   cursor: pointer;
   color: white;
 }
+
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
@@ -248,7 +250,7 @@ body{
     margin: 0 10px;
   }
 }
-img{
-  max-width:100%;
+img {
+  margin-top: 60px ;
   height: auto;
-}
+  max-width: 100%;
